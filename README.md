@@ -17,7 +17,8 @@ TE5primeIsoforms/
 │   ├── 02_collapse.sh
 │   ├── 03_sqanti3.sh
 │   ├── ...
-│   └── 18_dedup_orf_vs_uniprot.py
+│   ├── 18_dedup_orf_vs_uniprot.py
+│   └── README.md
 │
 ├── figures/
 │   └── workflow.png
