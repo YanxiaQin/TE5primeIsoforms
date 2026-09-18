@@ -24,7 +24,7 @@ This step defines the main data and reference files used throughout the analysis
 - HLA-I allele list
 - Public mass spectrometry data used for peptide-level evaluation
 
-Raw sequencing data and large reference files are not redistributed here. Sample information is summarized in Supplementary Table S1, and transcript-level TE annotations and filtering information are provided in Supplementary Table S2.
+Raw sequencing data and large reference files are not redistributed here. Sample information is summarized in Supplementary Table S1.
 
 ---
 
@@ -147,7 +147,7 @@ This step evaluates selected peptide sequences for predicted HLA-I binding and M
 16_merge_epitope_predictions.py
 ```
 
-NetMHCpan is used for HLA-I binding prediction, and NetCTLpan is used for complementary prediction of MHC class I pathway presentation. The manuscript analysis uses a predefined panel of 48 HLA-I alleles.
+NetMHCpan is used for HLA-I binding prediction, and NetCTLpan is used for complementary prediction of MHC class I pathway presentation. The analysis uses a predefined panel of 48 HLA-I alleles, as listed in Supplementary Table S10. The allele panel was selected with reference to a previously published study of HLA haplotype population applicability (Sunwoong P, Rim YA, Sohn Y, Nam Y, Ju JH. Exploration of Efficient HLA Haplotypes by Comparing the Proportion of Applicable Populations. Cell Transplantation. 2024;33. doi:10.1177/09636897241283539).
 
 The scripts prepare peptide inputs, run the prediction tools, parse the corresponding outputs, and integrate peptide-level prediction results for downstream analysis.
 
@@ -166,7 +166,7 @@ This step evaluates whether the curated transcript, ORF, or peptide sequences ov
 
 GTEx normal-tissue transcript information is used to annotate the normal-tissue transcriptional background of TE-associated isoforms. This information is used for interpretation and is not treated as a standalone criterion for defining the final event catalog.
 
-Predicted ORF products and derived peptides are compared with reference human protein sequences, including GENCODE v47 protein-coding translations and reviewed human UniProtKB proteins. Exact sequence matching is used to identify peptides already present in reference proteins. UCSC BLAT (GRCh38/hg38) can be used for manual sequence-source review of selected results.
+Predicted ORF products and derived peptides are compared with reference human protein sequences, including GENCODE v47 protein-coding translations and reviewed human UniProtKB proteins. UCSC BLAT (GRCh38/hg38) can be used for manual sequence-source review of selected results.
 
 This step reduces ambiguity arising from known reference proteins, normal-tissue transcript backgrounds, or identical peptide sequences with multiple possible sources.
 
