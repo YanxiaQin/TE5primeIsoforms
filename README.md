@@ -8,6 +8,16 @@ Analysis code and processed data for TE-associated 5′ isoforms and their poten
   <img src="figures/workflow.png" alt="Analysis workflow" width="80%">
 </p>
 
+## Supplementary data
+
+The complete supplementary tables can be downloaded from the following links:
+
+- **Table S2:**  
+  https://github.com/YanxiaQin/TE5primeIsoforms/releases/download/v1.0.0/Table_S2_full.xlsx
+
+- **Table S3:**  
+  https://github.com/YanxiaQin/TE5primeIsoforms/releases/download/v1.0.0/Table_S3_full.xlsx
+  
 ## Repository structure
 
 ```text
