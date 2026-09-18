@@ -6,8 +6,6 @@ Analysis code and processed data for TE-associated 5′ isoforms and their poten
 
 ![Analysis workflow](figures/workflow.png)
 
-The analysis starts from public PacBio Iso-Seq datasets and integrates transcript structure annotation, repeat annotation, transcription start site evidence, matched short-read RNA-seq, coding-sequence analysis, peptide prediction, and complementary mass spectrometry evidence.
-
 ## Repository structure
 
 ```text
@@ -24,3 +22,10 @@ TE5primeIsoforms/
 │   └── workflow.png
 │
 └── README.md
+
+## Contact
+
+For questions regarding the analysis or the materials in this repository, please contact:
+
+- Liang Sun: sunliang@sdfmu.edu.cn
+- Yanxia Qin: yanxia_qin@163.com
