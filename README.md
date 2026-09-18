@@ -4,7 +4,9 @@ Analysis code and processed data for TE-associated 5′ isoforms and their poten
 
 ## Workflow
 
-![Analysis workflow](figures/workflow.png)
+<p align="center">
+  <img src="figures/workflow.png" alt="Analysis workflow" width="80%">
+</p>
 
 ## Repository structure
 
@@ -22,10 +24,9 @@ TE5primeIsoforms/
 │   └── workflow.png
 │
 └── README.md
+```
 
-## Contact
+## Contact 
 
 For questions regarding the analysis or the materials in this repository, please contact:
-
-- Liang Sun: sunliang@sdfmu.edu.cn
-- Yanxia Qin: yanxia_qin@163.com
+sunliang@sdfmu.edu.cn, yanxia_qin@163.com
