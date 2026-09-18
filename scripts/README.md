@@ -202,20 +202,6 @@ Additional external tools used in individual steps include pbmm2, STAR, gffcompa
 
 ---
 
-## Public datasets
-
-| Data type | Accession | Use in this study |
-| --- | --- | --- |
-| PacBio Iso-Seq | PRJNA723287 | Long-read transcriptome analysis |
-| PacBio Iso-Seq | PRJNA851801 | Long-read transcriptome analysis |
-| PacBio Iso-Seq | PRJNA1176011 | Long-read transcriptome analysis |
-| Mass spectrometry | PXD051603 | Public proteomic reanalysis |
-| Mass spectrometry | PXD015270 | Public proteomic reanalysis |
-
-Matched short-read RNA-seq datasets were obtained from the corresponding source studies and are listed in Supplementary Table S1.
-
----
-
 ## Public reference resources
 
 | Resource | URL | Use in this study |
@@ -226,20 +212,6 @@ Matched short-read RNA-seq datasets were obtained from the corresponding source 
 | GTEx | https://www.gtexportal.org/home/downloads/adult-gtex/long_read_data | Normal-tissue transcript background assessment |
 | UniProtKB | https://www.uniprot.org/uniprotkb?query=Human | Reviewed human protein sequence comparison |
 | UCSC BLAT | https://genome.ucsc.edu/cgi-bin/hgBlat | Manual sequence-source review |
-
----
-
-## Supplementary tables referenced in this README
-
-| Table | Content |
-| --- | --- |
-| Table S1 | Sample information and public dataset accessions |
-| Table S2 | Transcript-level TE annotations and filtering information |
-| Table S4 | Curated sample-level TE-associated first-exon records |
-| Table S5 | Nonredundant event-level catalog and recurrence information |
-| Tables S6–S7 | Matched short-read splice-junction support |
-| Table S8 | Transcript abundance estimates from matched short-read RNA-seq |
-| Table S9 | ORF-level annotations and coding analyses |
 
 ---
 
